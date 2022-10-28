@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    
+</head>
+<body>
+    <h2 class="pb-1">Pesquisa Projetos Lei Rouanet</h2>
+	
+	<div class = "container">
+	
+		<div  class="pb-1">
+			<select id="opcoes">
+			<option value="">Tipo Pesquisa</option>
+			<option value="1">Por Area</option>
+			<option value="2">Por Segmento</option>
+			</select>
+		</div>
+	
+		<div class="pb-1"><select id="areas" hidden></select></div>
+	
+		<div class="pb-1"><select id="segmentos" hidden></select></div>
+    
+		<div class="pb-1"><select id="projetos" hidden></select>
+
+		<div class="pt-1">
+			<textarea id="saidaProjeto" rows="40" cols="140" hidden></textarea>
+		</div>
+	</div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
